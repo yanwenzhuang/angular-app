@@ -1,20 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ScrollableTabComponent } from './components';
-import { ImageSliderComponent } from './components';
+import { HomeModule } from './home';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ScrollableTabComponent,
-    ImageSliderComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

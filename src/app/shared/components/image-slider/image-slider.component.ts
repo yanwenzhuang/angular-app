@@ -1,4 +1,6 @@
-import { Component, OnInit, Input, Renderer2, ViewChild, ElementRef, OnDestroy, AfterViewChecked, AfterViewInit } from '@angular/core';
+import { Component, OnInit, Input, Renderer2,
+   ViewChild, ElementRef, OnDestroy, 
+    AfterViewInit } from '@angular/core';
 
 export interface ImageSlider{
   imgUrl: string,
